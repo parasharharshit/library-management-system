@@ -1,0 +1,61 @@
+/* styles.css */
+
+/* Reset default margin and padding */
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set background image for the entire page */
+body {
+    background-image: url("https://www.stars-ai.com/wp-content/uploads/2023/10/online-library-system.jpg");
+   /* background-image: url(''); /* Replace 'your-image-url.jpg' with the URL of your background image */
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Do not repeat the background image */
+}
+
+/* Style the page container */
+.page-container {
+    max-width: 1200px; /* Limit the maximum width of the container */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px; /* Add some padding to the container */
+}
+
+/* Style the AppBar */
+.AppBar {
+    background-color: #1976d2; /* Set background color */
+    color: #fff; /* Set text color */
+}
+
+/* Style the AppBar title */
+.AppBar-title {
+    font-size: 1.5rem; /* Set font size */
+    font-weight: bold; /* Set font weight */
+}
+
+/* Style the AppBar icon */
+.AppBar-icon {
+    margin-right: 10px; /* Add margin to the icon */
+}
+
+/* Style the user avatar */
+.user-avatar {
+    margin-right: 10px; /* Add margin to the avatar */
+}
+
+/* Style the login button */
+.login-button {
+    color: #fff; /* Set text color */
+    background-color: #4caf50; /* Set background color */
+    padding: 10px 20px; /* Add padding */
+    border: none; /* Remove border */
+    cursor: pointer; /* Add pointer cursor */
+}
+
+/* Style the notification container */
+.notification-container {
+    position: fixed; /* Set position to fixed */
+    top: 20px; /* Set distance from top */
+    right: 20px; /* Set distance from right */
+}
